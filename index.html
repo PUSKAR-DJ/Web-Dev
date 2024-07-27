@@ -13,8 +13,7 @@
             <div class="logo"><img src="img/logo.jpg" alt="logo"></div>
             <li> <a href="#home">Home</a></li>
             <li> <a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#contact_us">Contact Us</a></li>
         </ul>
         <div class="rightNav v-class-resp">
             <input type="text" name="search" id="search">
@@ -26,14 +25,14 @@
             <div class="line"></div>
          </div>
     </nav>
-    <section class="background firstSection">
+    <section class="background firstSection" id="home">
         <div class="box-main">
             <div class="firstHalf">
-                <p class="text-big">The future of technology is here.</p>
-                <p class="text-small">You can find all kind of technology stuff here we got everything for you, so just come and join our community from today itself.</p>
+                <p class="text-big">The past of Gaming is here.</p>
+                <p class="text-small">You can find all kind of Minecraft stuff here, we got Shaders and textures for you, so just come and visit this website.</p>
                 <div class="buttons">
-                    <button class="btn">Subscribe</button>
-                    <button class="btn">Watch Tutorial</button>
+                    <button class="btn"><a href="https://bit.ly/3ycmoAv">Website</a></button>
+                    <button class="btn"><a href="https://discord.gg/3NbDyyCUBb">Join Discord</a></button>
                 </div>
             </div>
             <div class="secondHalf">
@@ -41,44 +40,48 @@
             </div>
         </div>
     </section>
-    <section class="section">
+    <section class="section" >
         <div class="paras">
-        <p class="sectionTag text-big">The rise of technology</p>
-        <p class="sectionSubTag test-small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex minus sequi recusandae eius aperiam sint eum aut eos adipisci cum quam quis illum rem provident tempore sit, accusantium explicabo quos?</p>
+        <p class="sectionTag text-big" id="about">The rise of Minecraft</p>
+        <p class="sectionSubTag test-small">From humble indie beginnings, Minecraft exploded onto the gaming scene with its simple yet captivating concept of building and exploring. Word-of-mouth spread like wildfire as players discovered the endless possibilities within its blocky world. YouTube and Twitch became breeding grounds for creativity, showcasing mind-boggling creations that attracted millions. As its popularity soared, Minecraft transcended gaming, becoming an educational tool, a platform for collaboration, and a cultural phenomenon. Today, it remains a global sensation, continually evolving while preserving its core appeal of boundless creativity and community.</p>
         </div>
         <div class="thumbnail">
-            <img src="img/logo1.webp" alt="CJ">
+            <img src="img/minecraft.webp" alt="Minecraft">
         </div>
     </section>
     <section class="section section-left">
         <div class="paras">
-        <p class="sectionTag text-big">The styling of HTML</p>
-        <p class="sectionSubTag test-small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex minus sequi recusandae eius aperiam sint eum aut eos adipisci cum quam quis illum rem provident tempore sit, accusantium explicabo quos?</p>
+        <p class="sectionTag text-big">The Architect of the Blocky World</p>
+        <p class="sectionSubTag test-small">The mastermind behind Minecraft's blocky universe is Markus "Notch" Persson, a Swedish programmer. Inspired by games like Infiniminer and Dwarf Fortress, Notch sought to create a world where players could build and explore without limitations. The iconic character, Steve, was born from the need for a simple, pixelated avatar that fit the game's aesthetic. Initially, Notch considered a more complex character design but ultimately opted for the minimalist approach, a decision that has become synonymous with Minecraft's charm.</p>
         </div>
         <div class="thumbnail">
-            <img src="https://source.unsplash.com/1600x900/?html, js" alt="CJ">
+            <img src="img/notch.jpg" alt="Notch">
         </div>
     </section>
     <section class="section">
         <div class="paras">
-        <p class="sectionTag text-big">The ending of HTML code</p>
-        <p class="sectionSubTag test-small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex minus sequi recusandae eius aperiam sint eum aut eos adipisci cum quam quis illum rem provident tempore sit, accusantium explicabo quos?</p>
+        <p class="sectionTag text-big">Microsoft's Blocky Acquisition</p>
+        <p class="sectionSubTag test-small">In 2014, Minecraft's meteoric rise caught the attention of tech giant Microsoft, leading to a historic acquisition deal worth $2.5 billion. This marked a pivotal moment for the game, bringing it under the umbrella of a major corporation. The move raised eyebrows within the gaming community, with concerns about potential changes to the game's core values and creative freedom. However, Microsoft assured players that Minecraft's essence would remain intact, and the game continued to thrive under its new ownership.</p>
         </div>
         <div class="thumbnail">
-            <img src="https://source.unsplash.com/1600x900/?html, css" alt="CJ">
+            <img src="img/microsoft.jpeg" alt="Microsoft">
         </div>
     </section>
-    <section class="contact">
-       <h2 class="text-advanced">Contact Us</h2>
+    <section class="contact" >
+       <h2 class="text-advanced" id="contact_us">Contact Us</h2>
        <div class="form">
-        <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
-        <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your phone number">
-        <input class="form-input" type="email" name="email" id="email" placeholder="Enter your email">
-        <textarea class="form-input" name="text" id="text" cols="30" rows="10"placeholder="Ellaborate your issue to us, we will try our best to resolve your problem."></textarea>
-        <button class="btn-dark btn-sm">Submit</button>
+        <form action="mailto:puskarsaha3@gmail.com" method="post" enctype="text/plain">
+        <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name" required>
+        <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter your phone number" required>
+        <input class="form-input" type="email" name="email" id="email" placeholder="Enter your email" required>
+        <textarea class="form-input" name="text" id="text" cols="30" rows="10"placeholder="Elaborate your issue to us, we will try our best to resolve your problem." required></textarea>
+        <input type="hidden" name="Caution"
+        value="Hello Admin, here is the Data of the User. Please keep it confidential">
+        <button class="btn-dark btn-sm" type="submit">Submit</button>
+        </form>
     </div> 
     </section>
-    <footer class="background">
+    <footer class="background-ft">
         <p class="text-footer">
         Copyright &copy; 2027 - All rights reserved
         </p>
